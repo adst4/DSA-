@@ -1,11 +1,4 @@
-//SET B
-/*  a) Write a C program which uses Binary search tree library
-	 and implements following function with recursion:
-			T copy(T) - create another BST which is exact copy of BST 
-			which is passed as parameter. 
-			int compare(T1, T2) - compares two binary search trees 
-			and returns I if they are equal and�0�otherwise.      */
-			
+
 #include<stdio.h>
 #include<stdlib.h>
 #include "btree.h"
