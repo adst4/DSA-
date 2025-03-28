@@ -12,8 +12,7 @@
 	printf("2) insert\n");
 	printf("3) search\n");
 	printf("4) Display\n");
-	printf("5) delete\n");
-	printf("6) Exit\n");
+	printf("5) Exit\n");
 	printf("Enter The Choice : ");
 	scanf("%d",&choice);
 	switch(choice)
@@ -51,18 +50,12 @@
 			printf("\npostorder : ");
 			postorder(root);
 			break;
-		
-		case 5:
-			printf("Enter the Elements To Delete : ");
-			scanf("%d",&ele);
-			Delete(root,ele);
-			break;
 			
 	
-		case 6:
+		case 5:
 			exit(0);
 	}
-	}while(choice!=6);
+	}while(choice!=5);
 	
 	return 0;
 }
